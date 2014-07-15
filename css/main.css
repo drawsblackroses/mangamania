@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+body {
+	position: relative;
+	min-height: 100%;
+	padding-top: 100px;
+	padding-bottom: 250px;
+	background: #000000; /* Old browsers */
+	background: -moz-linear-gradient(left, #000000 0%, #000000 5%, #7f7f7f 25%, #bfbfbf 50%, #7f7f7f 75%, #000000 95%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#000000), color-stop(5%,#000000), color-stop(25%,#7f7f7f), color-stop(50%,#bfbfbf), color-stop(75%,#7f7f7f), color-stop(95%,#000000), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #000000 0%, #000000 5%,#7f7f7f 25%,#bfbfbf 50%,#7f7f7f 75%,#000000 95%,#000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #000000 0%,#000000 5%,#7f7f7f 25%,#bfbfbf 50%,#7f7f7f 75%,#000000 95%,#000000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #000000 0%,#000000 5%,#7f7f7f 25%,#bfbfbf 50%,#7f7f7f 75%,#000000 95%,#000000 100%); /* IE10+ */
+	background: linear-gradient(to right, #000000 0%,#000000 5%,#7f7f7f 25%,#bfbfbf 50%,#7f7f7f 75%,#000000 95%,#000000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+}
+
+#content {
+	background: transparent url('/images/anime-odio-76618-web.png') no-repeat top center;
+	width: 100%;
+	min-height: 100%;
+	padding: 50px 0;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	padding: 25px;
+	background: #7F09BD;
+	border-bottom: 4px solid #000;
+	font-family: 'Bubblegum Sans', cursive;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+header h1 {
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+}
+
+footer {
+	font-family: 'Bubblegum Sans', cursive;
+	width: 100%;
+	height: 250px;
+	background: #7F09BD;
+	border-top: 4px solid #000;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.panel {
+	text-align: center;
+	font-family: 'Bubblegum Sans', cursive;
+	width: 450px;
+	margin: 0 auto;
+	padding: 100px 75px;
+	background: #fff;
+	border: 5px solid rgba(0,0,0,0.25);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+  	-webkit-border-radius: 4px; /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  	-moz-border-radius: 4px; /* Firefox 1-3.6 */
+  	border-radius: 4px; 
+  	position: relative;
+}
+
+.panel .panel-header,
+.panel .panel-footer {
+	width: 100%;
+	height: 75px;
+	background: #D4ABFF;
+	position: absolute;
+	left: 0;
+}
+
+.panel .panel-header {
+	top: 0;
+	padding: 25px;
+}
+
+.panel .panel-header h1 {
+	font-size: 25px;
+}
+
+.panel .panel-footer {
+	bottom: 0;
+	padding: 15px;
+}
+
+.panel .panel-footer .button {
+	font-family: 'Bubblegum Sans', cursive;
+	font-size: 20px;
+	padding: 10px 15px;
+	width: 100px;
+	background: #fff;
+	background: -moz-linear-gradient(bottom, #ccc 0%, #ddd 10%, #fff 25%, #fff 50%, #fff 80%, #eee 95%, #ddd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear,bottom left,bottom right, color-stop(0%,#ccc), color-stop(10%,#ddd), color-stop(25%,#fff), color-stop(50%,#fff), color-stop(80%,#fff), color-stop(95%,#eee), color-stop(100%,#ddd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(bottom, #ccc 0%, #ddd 10%,#fff 25%,#fff 50%,#fff 80%,#eee 95%,#ddd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(bottom, #ccc 0%,#ddd 10%,#fff 25%,#fff 50%,#fff 80%,#eee 95%,#ddd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(bottom, #ccc 0%,#ddd 10%,#fff 25%,#fff 50%,#fff 80%,#eee 95%,#ddd 100%); /* IE10+ */
+	background: linear-gradient(bottom right, #ccc 0%,#ddd 10%,#fff 25%,#fff 50%,#fff 80%,#eee 95%,#ddd 100%); /* W3C */
+	border: 1px solid #bbb;
+  	-webkit-border-radius: 5px; /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  	-moz-border-radius: 5px; /* Firefox 1-3.6 */
+  	border-radius: 5px; 
+}
+
+.panel .form-input {
+	width: 100%;
+	margin: 15px 0;
+}
+
+.panel label {
+	font-size: 20px;
+	padding: 5px 0;
+	display: inline-block;
+}
+
+.panel label:first-child {
+	padding-top: 0;
+	margin-top: -10px;
+}
+
+.panel input[type="password"],
+.panel input[type="text"] {
+	padding: 10px;
+	border: 1px solid #9F28DE;
+  	-webkit-border-radius: 3px; /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  	-moz-border-radius: 3px; /* Firefox 1-3.6 */
+  	border-radius: 3px;
+  	font-size: 18px;
+}
