@@ -139,3 +139,7 @@ footer {
   	border-radius: 3px;
   	font-size: 18px;
 }
+
+.panel #error_message {
+	color: red;
+}
