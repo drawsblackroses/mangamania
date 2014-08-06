@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Manga Mania New Manga</title>
+		<link href='http://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<header>
+			<h1>Manga Mania</h1>
+		</header>
+		<div id="content">
+			<section id="new_manga_panel" class="panel">
+				<div class="panel-header">
+					<h1>Add New Manga</h1>
+				</div>
+				<p id="error_message"></p>
+				<form id="new_manga_form" action="/input_new_manga.php" method="post">
+					<div class="form-input">
+						<label for="title">Title</label><br />
+						<input id="title_input" type="text" name="title" >
+					</div>
+					<div class="form-input">
+						<label for="author">Author</label><br />
+						<input id="author_input" type="text" name="author" >
+					</div>
+					<div class="form-input">
+						<label for="genre">Genre</label><br />
+						<input id="genre_input" type="text" name="genre" >
+					</div>
+					<div class="form-input">
+						<label for="price">Price</label><br />
+						<input id="price_input" type="text" name="price" >
+					</div>
+					<div id="login_panel_bottom" class="panel-footer">
+						<input id="new_manga_submit_btn" type="submit" class="button" value="Submit" >
+					</div>
+				</form>
+			</section>
+		</div>
+		<footer>
+			
+		</footer>
+		<script type="text/javascript" src="/js/vendor/jquery.min.js"></script>
+	</body>
+</html>
