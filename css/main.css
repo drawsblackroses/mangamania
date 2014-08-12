@@ -73,6 +73,12 @@ footer {
   	position: relative;
 }
 
+.panel.data-panel {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+
 .panel .panel-header,
 .panel .panel-footer {
 	width: 100%;
@@ -142,4 +148,15 @@ footer {
 
 .panel #error_message {
 	color: red;
+}
+
+.panel table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 25px 0;
+}
+
+.panel table tr td {
+	padding: 10px;
+	border: solid 1px #7F09BD;
 }

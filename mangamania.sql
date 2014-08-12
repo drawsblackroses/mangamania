@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Aug 06, 2014 at 12:06 AM
+-- Generation Time: Aug 11, 2014 at 09:21 PM
 -- Server version: 5.5.37
 -- PHP Version: 5.3.10-1ubuntu3.13
 
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `mangas` (
   `price` decimal(4,2) NOT NULL,
   `genre` varchar(25) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
 
 --
 -- Dumping data for table `mangas`
@@ -41,7 +41,10 @@ CREATE TABLE IF NOT EXISTS `mangas` (
 
 INSERT INTO `mangas` (`id`, `title`, `author`, `price`, `genre`) VALUES
 (1, 'BTX', 'Masami Kurumada', 9.99, 'Shonen'),
-(2, 'Yugioh', 'Kazuki Takahashi', 10.99, 'Shonen');
+(2, 'Yugioh', 'Kazuki Takahashi', 10.99, 'Shonen'),
+(3, 'Saint Seiya', 'Masami Kurumada', 9.99, 'Action'),
+(4, 'Inuyasha', 'Rumiko Takahashi', 14.99, 'Adventure'),
+(5, 'YuYu Hakusho', 'Yoshihiro Togashi', 8.99, 'Action');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
